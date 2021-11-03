@@ -1,0 +1,62 @@
+li {
+    display: inline;
+    position: static;
+    float: left;
+    color: black;
+    padding-left: 22%;
+    padding-top:8%;
+    padding-bottom:5%;
+    font-family: "Montserrat";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.heading {
+    position: relative;
+    float: none;
+    color: black;
+    padding-left: 42%;
+    
+    padding-top:auto;
+    font-family: "Montserrat";
+}
+
+.forecast{
+    position: relative;
+    float: none;
+    color: black;
+    padding-left: 42%;
+    
+    padding-top:auto;
+    font-family: "Montserrat";
+}
+
+.rain{
+    position: relative;
+    float: none;
+    color: black;
+    padding-left: 42%;
+    
+    padding-top:auto;
+    font-family: "Montserrat";
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+head{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.nav{
+    display: flex;
+    justify-content:center;
+}
